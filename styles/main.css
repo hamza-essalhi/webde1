@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2b4241 !important;
+}
+
+.mainNavbar {
+  margin-top: 30px;
+  border-radius: 50px;
+  border: 1px solid #415555;
+  padding: 12px !important;
+  color: white;
+}
+.mainNavbar .navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  font-family: "Lobster", cursive;
+}
+.mainNavbar .navbar-nav {
+  width: 60%;
+}
+.mainNavbar .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+.mainNavbar .cart .toCart {
+  font-size: 30px;
+  margin-left: 30px;
+}
+.mainNavbar .cart a {
+  background-color: #f7b941;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 4px;
+}
+.mainNavbar .cart a:hover,
+.mainNavbar .cart a ::after {
+  background-color: transparent;
+  border: 1px solid #f7b941;
+  color: #f7b941;
+}
+.mainNavbar .cart i {
+  color: #f7b941;
+}
+
+.row {
+  color: white;
+}
+
+.tp_section {
+  margin: 100px 0px !important;
+}
+.tp_section .col .section {
+  height: 800px;
+  width: 100%;
+  border-radius: 500px;
+}
+.tp_section .col .section_a {
+  background-color: #303737;
+  z-index: 1;
+  margin: 20px -60px;
+}
+.tp_section .col .section_a h1 {
+  font-size: 120px;
+  font-weight: bold;
+  font-family: "Lobster", cursive;
+}
+.tp_section .col .section_a h2 {
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+}
+.tp_section .col .section_a .rounded_text span {
+  position: absolute;
+  transform-origin: 0px 162px;
+}
+.tp_section .col .section_a button {
+  margin-top: 40px;
+  background-color: #f7b941;
+  padding: 20px 80px;
+  border-radius: 20px;
+}
+.tp_section .col .section_a button:hover,
+.tp_section .col .section_a button ::after {
+  background-color: transparent;
+  border: 1px solid #f7b941;
+  color: #f7b941;
+}
+.tp_section .col .section_b {
+  margin: 20px -60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/2860705/pexels-photo-2860705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.tp_section .col .section_c {
+  z-index: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/ionut-comanici-RDcEWH5hSDE-unsplash-removebg.png");
+  border: 3px solid #415555;
+  border-top-width: 0px;
+  border-right-width: 3px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+.tp_section .col .section_c div {
+  margin-left: 200px;
+  line-height: 1.6;
+}
+.tp_section .col .section_c div h1 {
+  font-family: "Lobster", cursive;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 0.6;
+}
+.tp_section .col .section_c div h2 {
+  font-family: "Lobster", cursive;
+  line-height: 0.6;
+  font-size: 70px;
+}
+
+.bm_section {
+  margin: 200px 0px !important;
+}
+.bm_section .col img,
+.bm_section .col-img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: -10px;
+}
+
+footer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
